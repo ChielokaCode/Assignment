@@ -80,7 +80,7 @@ public class QuadraticIntegralCalculator {
         while (Math.abs(currentArea - previousArea) > tolerance) {
             previousArea = currentArea;
             currentArea = leftRiemannSum(a, b, c, left, right, bins);
-            bins *= 2; // Double the number of bins in each iteration
+            bins *= 2;
         }
 
         // Display the result with the same number of decimal places as the user's tolerance

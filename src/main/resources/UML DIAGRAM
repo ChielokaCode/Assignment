@@ -1,0 +1,15 @@
+-----------------------------------
+|           DigitCounter           |
+-----------------------------------
+| + digits(float num): int         |
+| + digits(double num): int        |
+| + digits(int num): int           |
+| + digits(String numStr): int     |
+| + decimals(float num): int       |
+| + decimals(double num): int      |
+| + decimals(int num): int         |
+| + decimals(String numStr): int   |
+-----------------------------------
+/*
+* + means the method is public and can be used by other class
+*/
